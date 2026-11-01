@@ -45,6 +45,8 @@ Pinging the gateway returned "Destination host unreachable", meaning the compute
 ![Wrong static IP](../images/lab-3-wrong-static-pings.png)
 *Pings fail with "Destination host unreachable", answered by the PC's own address: it can't find a route anywhere.*
 
+Note the “0% loss” for `8.8.8.8`: ping counts any reply as received, including the PC’s own “unreachable” message. Always read the replies, not just the statistics.
+
 **The fix:** in the adapter's IPv4 settings, switch back to "Obtain an IP address automatically" (or enter the correct static address, if you have it). The gateway answered immediately. Always make sure the address matches the gateway's network.
 
 ## Example 2: wrong DNS
