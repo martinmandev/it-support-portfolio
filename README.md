@@ -38,6 +38,5 @@ Short, step-by-step procedures, written the way a service desk would use them:
 
 - **Google IT Support Professional Certificate** · Google / Coursera, 2020
 
-## Currently learning
-
-Microsoft Entra ID and Azure fundamentals (AZ-900) · ITIL basics
+Next
+Azure Fundamentals (AZ-900) · ITIL basics
